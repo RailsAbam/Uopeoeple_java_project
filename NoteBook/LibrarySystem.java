@@ -16,12 +16,12 @@ public class LibrarySystem {
   int choice;
 
   do {
-  System.out.println("Library System Menu");
+  System.out.println("Library System Menu: ");
   System.out.println("1. Add Books");
   System.out.println("2. Borrow Books");
   System.out.println("3. Return Books");
   System.out.println("4. Exit");
-  System.out.print("Enter your choice: ");
+  System.out.print("Enter your choice other than the listed: ");//Option
   choice = scanner.nextInt();
   scanner.nextLine(); // Consume the newline character
 
@@ -39,7 +39,7 @@ public class LibrarySystem {
   System.out.println("Exiting the program...");
   break;
   default:
-  System.out.println("Invalid choice. Please try again.");
+  System.out.println("Invalid choice. Please try again.");//Through error to guide the user
   }
   System.out.println();
   } while (choice != 4);
