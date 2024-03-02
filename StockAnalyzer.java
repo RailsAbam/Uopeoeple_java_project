@@ -1,4 +1,4 @@
-package Stock;
+package Uopeoeple_java_project;
 import java.util.ArrayList;
 
 //StockAnalyzer class
